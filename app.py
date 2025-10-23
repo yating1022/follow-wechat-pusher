@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # 企业微信机器人 Webhook
-WECHAT_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9a895067-7663-4169-ac17-a7697d2693fe"
+WECHAT_WEBHOOK = "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=570e35d7-f044-4129-9276-f41688eddd8b"
 
 @app.route("/")
 def index():
